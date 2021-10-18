@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.cabecera{
+    background: white;
+    text-align: center;
+}
+.cabecera p{
+    color: white;
+    font-size: 90px;
+    text-align: left;
+}
+.barraNav{
+    background: #1183FF;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+.pie{
+    background: #1183FF;
+    color: white;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+}
+.pie p{
+    padding: 5px 50px;
+    text-align: center;
+    color: #fff
+}
+.barraNav p{
+    display: inline-block;
+    align-self: auto;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 10px 10px 10px black;/*sombreado a las letras*/
+}
+.barraNav ul li{
+    display: inline-block;
+    font-size: 25px;
+    text-align: center; 
+    color: white;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.barraNav ul li a{
+    transition: .3s ease-out all;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.barraNav ul li a:hover{
+    background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+.mainSection{
+    margin-left: 30%;
+    margin-right: 50px;
+    text-align: justify;
+}
+.slider {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: change 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+@keyframes change{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+.mainSection .articuloUno h1{
+    font-size: 50px;
+}
+.mainSection .articuloDos h1{
+    font-size: 50px;
+}
+.mainSection .articuloTres h1{
+    font-size: 50px;
+}
+.mainSection .articuloUno,.articuloDos,.articuloTres{
+    margin-right: 20%;
+}
+.mainSection .texto{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
