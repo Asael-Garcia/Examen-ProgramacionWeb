@@ -1,0 +1,59 @@
+form{
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 20px;
+    padding: 20px;
+    background: #ffffff;
+}
+
+.fondo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #4778FF;
+    width: 800px;
+}
+
+
+
+label{
+    display: block;
+    font-size: 15px;
+}
+h2{
+    text-align: center;
+    font-size: 25px;
+}
+input{
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box; /*para respetar los margenes del padre*/
+    border: 1px solid rgb(150, 145, 145);
+}
+
+/*es un evento para cuando se selecciona algo*/
+input:focus{
+    /*color:red*/
+}
+input[type="submit"]{
+    background: rgb(83, 86, 243);
+    color: white;
+    margin-bottom: 0;
+    border:none;
+}
+input[type="submit"]:hover{
+    background: rgb(159, 159, 255);
+    cursor: pointer;/*para cambiar el cursor*/
+}
+textarea{
+
+   /* max-width: 100%; para la anchura maxima*/
+  /*  max-height: 100%; /*para la altura maxima*/
+  /*  min-height: 100px;/*para altura minima*/
+   /* min-width: 100px;/*para anchura maxima*/
+   width: 100%;
+resize: none; /*para modificar el tamaño de un text area*/
+
+}

@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.cabecera{
+    background: white;
+    text-align: center;
+}
+.cabecera p{
+    color: white;
+    font-size: 90px;
+    text-align: left;
+}
+.barraNav{
+    background: #1183FF;
+    color: white;
+    
+    position: sticky;
+    top: 0;
+}
+.barraNav p{
+    display: inline-block;
+    align-self: auto;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 10px 10px 10px black;/*sombreado a las letras*/
+}
+.barraNav ul li{
+    display: inline-block;
+    font-size: 25px;
+    text-align: center; 
+    color: white;
+    margin-top: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contenedor{
+    background-image: url("https://api.benefits.gov//sites/default/files/2020-07/AK5IQJ2%20-%20Imgur_1.jpg");
+	width: 100%;
+	height: 800px;
+	background-size: 100% 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.barraNav ul li a{
+    transition: .3s ease-out all;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+
+}
+.text{
+	z-index: 1;
+	width: 100%;
+	max-width: 550px;
+	text-align: center;
+}
+.barraNav ul li a:hover{
+    background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+.text h1{
+	color: #fff;
+	font-size: 45px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+    font-weight: bold;
+}
+.text p{
+	color: #c7c7c7;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+.mainSection{
+    padding-top: 40px;
+    margin-left: 30%;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+.mainSection .articuloUno h1{
+    font-size: 50px;
+}
+.mainSection .articuloDos h1{
+    font-size: 50px;
+}
+.mainSection .articuloTres h1{
+    font-size: 50px;
+}
+.mainSection .articuloUno,.articuloDos,.articuloTres{
+    margin-right: 20%;
+}
+.mainSection .texto{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.pie{
+    background: #1183FF;
+    color: white;
+    position: sticky;
+    top: 0;
+    height: 100px;
+}
+.contenedor1{
+    display: inline-block;
+    border: black solid;
+    height: 200px;
+    width: 300px;
+    margin: 20px 50px;
+    padding: 10px;
+
+}
+.contenedor2{
+    display: inline-block;
+    border: black solid;
+    height: 200px;
+    width: 300px;
+    margin: 20px 50px;
+    padding: 10px;
+}
+.contenedor3{
+    display: inline-block;
+    border: black solid;
+    height: 200px;
+    width: 300px;
+    margin: 20px 50px;
+    padding: 10px;
+}
+.pie{
+    background: #1183FF;
+    color: white;
+    position: sticky;
+    top: 0;
+    font-size: 20px;
+}
+.pie p{
+    padding: 5px 50px;
+    text-align: center;
+    color: #fff
+}
+.contenedorprincipal{
+    float: center    ;
+    height: 1000px;
+}
